@@ -1,0 +1,51 @@
+#img-div #image {   
+    max-width: 100%;
+    height: auto;
+}
+
+#img-div { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(5px);
+}
+
+/* after passing all tests -- styling */
+
+html { 
+    background: white;
+}
+
+#main { 
+    margin: 25px 10px 25px 10px;
+    background-color: rgb(238, 238, 238);
+}
+
+#main { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tribute-info { 
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+ul li { 
+    padding-top: 20px;
+}
+
+.quote {
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
